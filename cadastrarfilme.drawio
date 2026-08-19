@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="OwyuFlsxweGWMYZMkJCi">
-    <mxGraphModel>
+    <mxGraphModel dx="774" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-5" edge="1" parent="1" source="Z3RROlo9ebYg7isq7vSx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z3RROlo9ebYg7isq7vSx-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;" value="Inicio" vertex="1">
+          <mxGeometry height="40" width="84" x="318" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-6" edge="1" parent="1" source="Z3RROlo9ebYg7isq7vSx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z3RROlo9ebYg7isq7vSx-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" value="Cadastrar filme" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-8" edge="1" parent="1" source="Z3RROlo9ebYg7isq7vSx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z3RROlo9ebYg7isq7vSx-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" value="Informar os dados do filme (nome, ano, gênero, nota e capa)" vertex="1">
+          <mxGeometry height="90" width="156" x="282" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-11" edge="1" parent="1" source="Z3RROlo9ebYg7isq7vSx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z3RROlo9ebYg7isq7vSx-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-12" connectable="0" parent="Z3RROlo9ebYg7isq7vSx-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Não" vertex="1">
+          <mxGeometry relative="1" x="-0.4286" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-15" edge="1" parent="1" source="Z3RROlo9ebYg7isq7vSx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z3RROlo9ebYg7isq7vSx-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Os dados estão preenchidos corretamente?" vertex="1">
+          <mxGeometry height="80" width="188" x="266" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mensagem de erro" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-10" edge="1" parent="1" source="Z3RROlo9ebYg7isq7vSx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.979;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" target="Z3RROlo9ebYg7isq7vSx-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z3RROlo9ebYg7isq7vSx-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mensagem de filme cadastrado com sucesso" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="420" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
