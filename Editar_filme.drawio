@@ -1,9 +1,67 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="su_j2upyaKNmV2qVYPQ7">
-    <mxGraphModel>
+    <mxGraphModel dx="774" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-3" edge="1" parent="1" source="EnFFtEbV0DZ5DWxK-24L-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EnFFtEbV0DZ5DWxK-24L-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;" value="Inicio" vertex="1">
+          <mxGeometry height="40" width="80" x="340" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-5" edge="1" parent="1" source="EnFFtEbV0DZ5DWxK-24L-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EnFFtEbV0DZ5DWxK-24L-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" value="Editar filme" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-7" edge="1" parent="1" source="EnFFtEbV0DZ5DWxK-24L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EnFFtEbV0DZ5DWxK-24L-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="Selecionar filme que deseja editar" vertex="1">
+          <mxGeometry height="70" width="140" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-9" edge="1" parent="1" source="EnFFtEbV0DZ5DWxK-24L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Alterar as informações" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-12" edge="1" parent="1" source="EnFFtEbV0DZ5DWxK-24L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EnFFtEbV0DZ5DWxK-24L-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-13" connectable="0" parent="EnFFtEbV0DZ5DWxK-24L-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Não" vertex="1">
+          <mxGeometry relative="1" x="-0.25" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-16" edge="1" parent="1" source="EnFFtEbV0DZ5DWxK-24L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EnFFtEbV0DZ5DWxK-24L-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-17" connectable="0" parent="EnFFtEbV0DZ5DWxK-24L-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sim" vertex="1">
+          <mxGeometry relative="1" x="-0.35" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Todas as informações estão preenchidas corretamente?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-14" edge="1" parent="1" source="EnFFtEbV0DZ5DWxK-24L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="EnFFtEbV0DZ5DWxK-24L-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mensagem de erro" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EnFFtEbV0DZ5DWxK-24L-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" value="Salvar alterações e mostrar mensagem de filme atualizado com sucesso" vertex="1">
+          <mxGeometry height="80" width="160" x="300" y="520" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
