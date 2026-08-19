@@ -1,9 +1,46 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="8_w7_I9ol--NSw2euKnp">
-    <mxGraphModel>
+    <mxGraphModel dx="774" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-3" edge="1" parent="1" source="SAvnngaTzOvcu4aPVBKP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SAvnngaTzOvcu4aPVBKP-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Inicio" vertex="1">
+          <mxGeometry height="40" width="80" x="334" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-5" edge="1" parent="1" source="SAvnngaTzOvcu4aPVBKP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SAvnngaTzOvcu4aPVBKP-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="Selecionar a opção &quot;remover filme&quot; do filme desejado" vertex="1">
+          <mxGeometry height="70" width="140" x="304" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-7" edge="1" parent="1" source="SAvnngaTzOvcu4aPVBKP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SAvnngaTzOvcu4aPVBKP-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-8" connectable="0" parent="SAvnngaTzOvcu4aPVBKP-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="não" vertex="1">
+          <mxGeometry relative="1" x="-0.2549" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-12" edge="1" parent="1" source="SAvnngaTzOvcu4aPVBKP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SAvnngaTzOvcu4aPVBKP-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-13" connectable="0" parent="SAvnngaTzOvcu4aPVBKP-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="sim" vertex="1">
+          <mxGeometry relative="1" x="-0.7067" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Confirmar exclusão" vertex="1">
+          <mxGeometry height="80" width="110" x="319" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="voltar para a coleção" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SAvnngaTzOvcu4aPVBKP-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mostrar mensagem de filme excluído com sucesso" vertex="1">
+          <mxGeometry height="60" width="120" x="314" y="310" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
