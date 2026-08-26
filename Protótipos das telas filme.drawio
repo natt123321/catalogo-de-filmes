@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="PcSeDxCcnD_NIgEqXLPM">
-    <mxGraphModel dx="2117" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1472" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,6 +172,45 @@
         </mxCell>
         <mxCell id="1GKBxMtPwy8QvbkgOjFv-193" parent="1GKBxMtPwy8QvbkgOjFv-175" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.hdr_hybrid_disaster_recovery;opacity=15;" value="" vertex="1">
           <mxGeometry height="351" width="351" x="20.00000000000003" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-1" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" value="Nome do filme" vertex="1">
+          <mxGeometry height="18" width="50" x="160" y="184.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-2" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" value="nome do filme" vertex="1">
+          <mxGeometry height="18" width="350" x="210" y="184.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-3" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" value="Gênero" vertex="1">
+          <mxGeometry height="18" width="50" x="160" y="219.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-4" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" value="gênero" vertex="1">
+          <mxGeometry height="18" width="350" x="210" y="219.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-5" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" value="Classificação" vertex="1">
+          <mxGeometry height="18" width="50" x="160" y="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-6" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" value="Infantil" vertex="1">
+          <mxGeometry height="18" width="350" x="210" y="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-7" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" value="Duração" vertex="1">
+          <mxGeometry height="18" width="50" x="160" y="289.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-8" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" value="1h 21m" vertex="1">
+          <mxGeometry height="18" width="350" x="210" y="289.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-9" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" value="Sinopse" vertex="1">
+          <mxGeometry height="18" width="50" x="110" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-10" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" value="" vertex="1">
+          <mxGeometry height="18" width="350" x="210" y="324.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-11" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;verticalAlign=top;whiteSpace=wrap;" value="&lt;font style=&quot;color: light-dark(rgb(232, 232, 232), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif;&quot;&gt;Blair é uma garota simples e órfã que foi sorteada para estudar na exclusiva Escola de Princesas. A escola é um lugar incrível, onde as meninas aprendem dança, etiqueta, arte e outras habilidades indispensáveis a uma princesa. Blair adora suas aulas, suas novas fadinhas assistentes e suas novas amig&lt;/span&gt;&lt;span class=&quot;yZlgBd&quot; style=&quot;display: inline; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif;&quot;&gt;as, as princesas Hadley e Isla. Porém, quando a malvada Dama Devin desconfia que Blair é a princesa e herdeira desaparecida, ela faz de tudo para impedir que Blair assuma o trono.&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="400" x="160" y="359.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-12" edge="1" parent="1GKBxMtPwy8QvbkgOjFv-175" source="1GKBxMtPwy8QvbkgOjFv-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="1GKBxMtPwy8QvbkgOjFv-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zumbl8vQk5e6xF-g2OfQ-13" parent="1GKBxMtPwy8QvbkgOjFv-175" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" value="Ano de lançamento" vertex="1">
+          <mxGeometry height="18" width="50" x="160" y="325" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
