@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, redirect, url_for
 from psycopg2.extras import RealDictCursor
 
 from database import criar_conexao
@@ -78,6 +78,15 @@ def testar_conexao():
     print('Testando conexão:', conn)
     conn.close()
     return jsonify({"message": "Banco conectado com sucesso!"}), 200
+
+@app.route('/deletar/<int:id>',methods=["POST"])
+def deletar_filme(id):
+    conn = criar_conexao()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM filmes WHERE id = %s", (id,))
+    conn.commit()
+    conn.close()
+    return redirect(url_for("listar_filmes"))
 
 
 if __name__ == '__main__':

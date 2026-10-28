@@ -42,3 +42,27 @@ SELECT * FROM usuarios;
 SELECT * FROM filmes;
 
 SELECT * FROM filmes WHERE usuario_id = 1;
+
+UPDATE filmes
+SET capa_url = 'https://i.pinimg.com/1200x/0b/34/ce/0b34ce2145b475247577a5d438a199b0.jpg'
+WHERE id = 1;
+
+UPDATE filmes
+SET capa_url = 'https://i.pinimg.com/1200x/12/b1/bb/12b1bb4ea3db0d572ddf06003196a63d.jpg'
+WHERE titulo = 'Harry Potter e a Pedra Filosofal';
+
+UPDATE filmes
+SET capa_url = 'https://i.pinimg.com/1200x/d8/a4/84/d8a484f2b1ecaf38255daf8c4cad69cb.jpg'
+WHERE id = 3;
+
+UPDATE filmes
+SET capa_url = 'https://i.pinimg.com/1200x/26/e7/9c/26e79ce4b033f4859264ca7ee682acf8.jpg'
+WHERE titulo = 'Toy Story';
+
+UPDATE filmes
+SET capa_url = 'https://i.pinimg.com/736x/ee/73/35/ee733577a5724b59de70e4f1f335f874.jpg'
+WHERE id = 2;
+
+DELETE FROM filmes
+WHERE id = 8;
+

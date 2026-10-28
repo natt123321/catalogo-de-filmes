@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevFlix</title>
     <link rel="stylesheet" href="../static/style.css">
 </head>
+
 <body>
     <header class="navbar">
 
@@ -26,13 +28,31 @@
                 <div class="card-content">
                     <h3> {{filme.titulo}} </h3>
                     <img src="{{filme.capa_url}}" class="card-img">
+                    <p> <strong>Gênero:</strong> {{filme.genero}}</p>
+                    <p> <strong>Lançamento:</strong> {{filme.ano_lancamento}}</p>
+                    <p> <strong>Nota:</strong> {{filme.nota}}</p>
+
+                    <div style="margin-top: 15px;">
+                        <form action="{{ url_for('deletar_filme', id = filme.id) }}" method="POST"
+                            style="display:inline;">
+                            <button type="submit" onclick="return confirm('Tem certeza que deseja excluir?')">Excluir</button>
+
+                        </form>
+                    </div>
                 </div>
 
             </div>
+
+            {% else %}
+            <div class="empty-message">
+                <h3>Nenhum filme disponível</h3>
+            </div>
+
             {% endfor %}
 
         </div>
     </section>
-    
+
 </body>
+
 </html>
