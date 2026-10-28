@@ -88,6 +88,30 @@ def deletar_filme(id):
     conn.close()
     return redirect(url_for("listar_filmes"))
 
+@app.route('/novo', methods=["GET", "POST"])
+def novo_filme():
+    if request.method == 'POST':
+        titulo = request.form['titulo']
+        genero = request.form['genero']
+        capa_url = request.form['capa_url']
+        nota = request.form['nota']
+        ano_lancamento = request.form['ano_lancamento']
+        usuario_id = 1
+
+        parametros = [titulo, genero, capa_url, nota, ano_lancamento, usuario_id]
+        sql = '''
+        INSERT INTO filmes (titulo, genero, capa_url, nota, ano_lancamento, usuario_id)
+        VALUES (%s, %s, %s, %s, %s, %s)
+        '''
+        conn = criar_conexao()
+        cursor = conn.cursor()
+        cursor.execute(sql, parametros)
+        conn.commit()
+        conn.close()
+        return redirect(url_for("listar_filmes"))
+
+    return render_template("novo_filme.html")
+
 
 if __name__ == '__main__':
     app.run(debug=True)
